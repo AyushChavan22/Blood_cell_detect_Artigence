@@ -6,11 +6,6 @@ This repository contains a web application designed for detecting and classifyin
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Model Training](#model-training)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
