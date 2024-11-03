@@ -1,0 +1,11 @@
+
+    # BCCD Dataset for YOLOv10
+    train: C:\Users\AYUSH\OneDrive - Vidyalankar Institute of Technology\Desktop\ML_INTERN_01\BCCD_Dataset\BCCD\ImageSets\Main\train  # Path to training images
+    val: C:\Users\AYUSH\OneDrive - Vidyalankar Institute of Technology\Desktop\ML_INTERN_01\BCCD_Dataset\BCCD\ImageSets\Main\val      # Path to validation images
+
+    # Number of classes
+    nc: 3
+
+    # Class names
+    names: ["RBC", "WBC", "Platelets"]
+    
