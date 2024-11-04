@@ -13,8 +13,9 @@ ML_intern_01_Artigence/
 ├── bccd.yaml          # Configuration file for YOLOv10
 ├── convert.py         # Script to convert XML annotations to YOLO format
 ├── data_aug.py        # Data augmentation script using Albumentations
-├── requirements.txt    # List of required Python packages
-└── yolo.py            # Training script for the YOLO model
+├── requirements.txt   # List of required Python packages
+├── yolo.py            # Training script for the YOLO model
+└── LICENSE            # MIT License file for the project
 ```
 
 ## Features
