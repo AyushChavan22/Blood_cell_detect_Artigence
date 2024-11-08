@@ -83,14 +83,10 @@ def apply_augmentation(image_path, xml_path, image_save_path, xml_save_path):
     
     # Define the augmentation pipeline
     transform = A.Compose([
-        A.ColorJitter(p=0.5, brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1),
         A.Rotate(limit=40, p=0.5),
         A.HorizontalFlip(p=0.5),
         A.VerticalFlip(p=0.5),
-        A.RandomScale(scale_limit=(-0.2, 0.5), p=0.5),
         A.RandomCrop(width=crop_width, height=crop_height, p=0.5),
-        A.ShiftScaleRotate(shift_limit=0.05, scale_limit=0.1, rotate_limit=20, p=0.5),
-        A.RandomBrightnessContrast(p=0.5),
     ], bbox_params=A.BboxParams(format='pascal_voc',  min_area=500, min_visibility=0.1, label_fields=['labels']))
 
     # Parse the bounding boxes and labels from the corresponding XML
